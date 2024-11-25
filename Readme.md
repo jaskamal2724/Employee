@@ -80,11 +80,6 @@ Follow the steps below to run this project on your local machine:
 
 ---
 
-## Output Video  
-
-A video demonstrating the functionality of the project can be found [here](#).  
-
----
 
 ## GitHub Repository  
 
@@ -97,8 +92,7 @@ The source code is available on GitHub: [GitHub Repository Link](#).
 If you have any questions regarding the project, feel free to contact me:  
 
 - **Name**: Jaskamal Singh  
-- **Email**: [Your Email Address]  
-- **GitHub**: [Your GitHub Profile]  
+- **Email**: jaskamalsingh7872@gmail.com
 
 ---  
 
