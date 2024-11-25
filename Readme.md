@@ -1,99 +1,178 @@
-# Video Link 
+# Video Link
 - https://drive.google.com/file/d/1qmC3osHr_ELGFRl7NKKkJg5B5TOp2iuI/view?usp=sharing
 
-# MERN Machine Test for DealsDray Internship  
+# MERN Machine Test Documentation  
 
-This repository contains my submission for the MERN Developer Machine Test for the internship position at DealsDray Online Pvt. Ltd. The project implements the given requirements as per the test instructions.
-
-## Project Overview  
-
-- **Objective**: [Briefly describe the task, e.g., "Develop a full-stack application with CRUD functionality using the MERN stack."]
-- **Technologies Used**:  
-  - **Frontend**: React.js, Tailwind CSS (if used), Axios (if applicable)  
-  - **Backend**: Node.js, Express.js  
-  - **Database**: MongoDB  
-  - **Additional Tools**: [Mention any other tools like Postman, Git, etc.]
+## Table of Contents  
+1. [Introduction](#introduction)  
+2. [Technologies Used](#technologies-used)  
+3. [Project Structure](#project-structure)  
+4. [Installation and Setup](#installation-and-setup)  
+5. [Features](#features)  
+6. [API Endpoints](#api-endpoints)  
+7. [Usage Guide](#usage-guide)  
+8. [Demo and Output](#demo-and-output)  
+9. [Troubleshooting](#troubleshooting)  
+10. [Contact Information](#contact-information)  
 
 ---
 
-## Features  
+## Introduction  
 
-1. [Feature 1, e.g., "User authentication and authorization."]  
-2. [Feature 2, e.g., "Create, read, update, and delete (CRUD) operations."]  
-3. [Feature 3, e.g., "Responsive UI for seamless user experience."]  
+This project is a submission for the MERN Developer internship machine test for **DealsDray Online Pvt. Ltd.** It demonstrates the ability to create a full-stack web application using the **MERN stack** (MongoDB, Express.js, React.js, Node.js).  
+
+---
+
+## Technologies Used  
+
+- **Frontend**:  
+  - React.js  
+  - CSS/Tailwind CSS (if applicable)  
+  - Axios (for API requests)  
+
+- **Backend**:  
+  - Node.js  
+  - Express.js  
+
+- **Database**:  
+  - MongoDB  
+
+- **Additional Tools**:  
+  - Postman (for API testing)  
+  - Git and GitHub (version control)  
+
+---
+
+## Project Structure  
+
+```
+project-name/  
+│  
+├── backend/  
+│   ├── controllers/  
+│   ├── models/  
+│   ├── routes/  
+│   ├── server.js  
+│   ├── package.json  
+│  
+├── frontend/  
+│   ├── src/  
+│   │   ├── components/  
+│   │   ├── pages/  
+│   │   ├── App.js  
+│   │   ├── index.js  
+│   ├── package.json  
+│  
+├── .env  
+├── README.md  
+```  
 
 ---
 
 ## Installation and Setup  
 
-Follow the steps below to run this project on your local machine:  
-
 ### Prerequisites  
-- Node.js and npm installed  
-- MongoDB running locally or a connection string for a cloud database  
+- Ensure **Node.js** and **npm** are installed.  
+- MongoDB should be running locally or you have a connection string for a cloud-based database.  
 
-### Instructions  
+### Steps  
 
-1. Clone the repository:  
+1. **Clone the Repository**  
    ```bash  
    git clone https://github.com/your-github-username/project-name.git  
    ```  
 
-2. Navigate to the project directory:  
+2. **Navigate to the Project Directory**  
    ```bash  
    cd project-name  
    ```  
 
-3. Install dependencies for both frontend and backend:  
+3. **Install Backend Dependencies**  
    ```bash  
    npm install  
-   cd client  
+   ```  
+
+4. **Install Frontend Dependencies**  
+   ```bash  
+   cd frontend  
    npm install  
    cd ..  
    ```  
 
-4. Set up environment variables:  
-   - Create a `.env` file in the root directory.  
-   - Add the following variables:  
-     ```plaintext  
-     MONGO_URI=<your_mongodb_connection_string>  
-     PORT=5000  
-     ```  
+5. **Set up Environment Variables**  
+   Create a `.env` file in the root directory and include:  
+   ```plaintext  
+   MONGO_URI=<your_mongodb_connection_string>  
+   PORT=5000  
+   ```  
 
-5. Start the application:  
-   - Backend:  
+6. **Run the Application**  
+   - Start the backend:  
      ```bash  
      npm run server  
      ```  
-   - Frontend:  
+   - Start the frontend:  
      ```bash  
-     cd client  
+     cd frontend  
      npm start  
      ```  
 
 ---
 
-## Usage  
+## Features  
 
-1. Open the application in your browser at `http://localhost:3000`.  
-2. [Provide steps for interacting with the app, e.g., "Register as a user, log in, and perform CRUD operations."]  
+1. User Authentication and Authorization (if applicable).  
+2. CRUD operations for [specific functionality].  
+3. Responsive and user-friendly UI.  
+4. RESTful API integration.  
+
+---
+
+## API Endpoints  
+
+### Base URL  
+`http://localhost:5000/api`  
+
+### Endpoints  
+
+1. **Users**  
+   - `POST /users/register` - Register a new user.  
+   - `POST /users/login` - User login.  
+
+2. **[Additional Resources]**  
+   - `GET /[resource]` - Fetch all [resource].  
+   - `POST /[resource]` - Add new [resource].  
+   - `PUT /[resource]/:id` - Update [resource] by ID.  
+   - `DELETE /[resource]/:id` - Delete [resource] by ID.  
+
+---
+
+## Usage Guide  
+
+1. Launch the application by opening `http://localhost:3000` in your browser.  
+2. Register or log in (if authentication is implemented).  
+3. Perform [describe key actions, e.g., adding, editing, deleting, or fetching resources].  
 
 ---
 
 
-## GitHub Repository  
 
-The source code is available on GitHub: [GitHub Repository Link](#).  
+## Troubleshooting  
+
+- **Issue: Application not connecting to MongoDB**  
+  - Ensure the MongoDB URI in `.env` is correct.  
+  - Check if MongoDB is running.  
+
+- **Issue: Frontend not loading**  
+  - Verify the backend is running on the correct port.  
+  - Check if the API endpoint URLs are correctly configured in the frontend code.  
 
 ---
 
-## Contact  
+## Contact Information  
 
-If you have any questions regarding the project, feel free to contact me:  
+If you have any questions or need further assistance, feel free to reach out:  
 
 - **Name**: Jaskamal Singh  
 - **Email**: jaskamalsingh7872@gmail.com
 
----  
-
-Feel free to customize this template with the specifics of your project!
